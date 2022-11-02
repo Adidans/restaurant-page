@@ -117,3 +117,43 @@ html, body{
     justify-content: center;
     align-items: center;
 }
+
+iframe{
+    width: 460px;
+    height: 460px;
+    border: none;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon{
+    width: 68px;
+}
+
+.contactsDiv{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contactsInfo{
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactsText{
+    white-space: pre-wrap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #657786;
+}
