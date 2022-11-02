@@ -11,6 +11,7 @@ function createHome(){
     let home = document.createElement('p')
     home.textContent = 'SĀKUMS'
     home.classList.add('link')
+    home.id = 'home'
     let aboutUs = document.createElement('p')
     aboutUs.textContent = 'PAR MUMS'
     aboutUs.classList.add('link')
