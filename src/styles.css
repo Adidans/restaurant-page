@@ -42,10 +42,10 @@ html, body{
     color: #C0996B;
 }
 
-#home,
-#aboutUs,
-#menu,
-#contacts{
+.home,
+.aboutUs,
+.menu,
+.contacts{
     color: #C0996B;
 }
 
@@ -73,6 +73,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 32px;
+    color: #14171A;
 }
 
 .aboutUsSpan,
