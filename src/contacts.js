@@ -1,4 +1,7 @@
 const content = document.getElementById('content')
+import mapSvg from '../imgs/map.svg'
+import phoneSvg from '../imgs/phone.svg'
+import emailSvg from '../imgs/email.svg'
 
 function createContacts(){
 
@@ -13,7 +16,7 @@ function createContacts(){
     let email = document.createElement('div')
     email.classList.add('contact')
     let emailIco = document.createElement('img')
-    emailIco.src = '../imgs/email.svg'
+    emailIco.src = emailSvg
     emailIco.classList.add('icon')
     email.appendChild(emailIco)
     let emailText = document.createElement('p')
@@ -25,7 +28,7 @@ function createContacts(){
     let phone = document.createElement('div')
     phone.classList.add('contact')
     let phoneIco = document.createElement('img')
-    phoneIco.src = '../imgs/phone.svg'
+    phoneIco.src = phoneSvg
     phoneIco.classList.add('icon')
     phone.appendChild(phoneIco)
     let phoneText = document.createElement('p')
@@ -37,7 +40,7 @@ function createContacts(){
     let location = document.createElement('div')
     location.classList.add('contact')
     let locationIco = document.createElement('img')
-    locationIco.src = '../imgs/map.svg'
+    locationIco.src = mapSvg
     locationIco.classList.add('icon')
     location.appendChild(locationIco)
     let locationText = document.createElement('p')

@@ -1,4 +1,5 @@
 const content = document.getElementById('content')
+import menuPdf from '../imgs/menu.pdf'
 
 function createMenu(){
 
@@ -22,7 +23,7 @@ function createMenu(){
     menuButton.classList.add('menuButton')
     menuButton.textContent = 'APLŪKOT ĒDIENKARTI'
     menuButton.addEventListener('click',() => {
-        window.open('../imgs/menu.pdf', '_blank');
+        window.open(menuPdf, '_blank');
     })
     menuDiv.appendChild(menuButton)
 

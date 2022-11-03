@@ -1,36 +1,7 @@
 const content = document.getElementById('content')
+import aboutUsJpeg from '../imgs/about-us-img.jpeg'
 
 function createAboutUs(){
-    // let header = document.createElement('div')
-    // header.classList.add('header')
-    // let logo = document.createElement('img')
-    // logo.src = '../imgs/logo.png'
-    // logo.classList.add('logo')
-    // let links = document.createElement('div')
-    // links.classList.add('links')
-    // let home = document.createElement('p')
-    // home.textContent = 'SĀKUMS'
-    // home.classList.add('link')
-    // home.id = 'home'
-    // let aboutUs = document.createElement('p')
-    // aboutUs.id = 'aboutUs'
-    // aboutUs.textContent = 'PAR MUMS'
-    // aboutUs.classList.add('link')
-    // aboutUs.classList.add('aboutUs')
-    // let menu = document.createElement('p')
-    // menu.textContent = 'ĒDIENKARTE'
-    // menu.classList.add('link')
-    // menu.id = 'menu'
-    // let contacts = document.createElement('p')  
-    // contacts.textContent = 'KONTAKTI'
-    // contacts.classList.add('link')
-    // contacts.id = 'contacts'
-    // links.appendChild(home)  
-    // links.appendChild(aboutUs)  
-    // links.appendChild(menu)  
-    // links.appendChild(contacts)  
-    // header.appendChild(logo)
-    // header.appendChild(links)
 
     let aboutUsDiv = document.createElement('div')
     aboutUsDiv.classList.add('aboutUs')
@@ -62,7 +33,7 @@ function createAboutUs(){
     aboutUsContent.appendChild(aboutUsText)
 
     let aboutUsImg = document.createElement('img')
-    aboutUsImg.src = '../imgs/about-us-img.jpeg'
+    aboutUsImg.src = aboutUsJpeg
     aboutUsContent.appendChild(aboutUsImg)
 
     aboutUsDiv.appendChild(aboutUsContent)

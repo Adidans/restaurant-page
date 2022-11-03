@@ -3,6 +3,7 @@ import { createAboutUs } from "./aboutUs.js";
 import {createMenu} from "./menu.js"
 import {createContacts} from "./contacts.js"
 import {createHeader} from "./header.js"
+import './styles.css'
 
 createHeader()
 createHome()

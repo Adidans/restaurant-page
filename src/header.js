@@ -1,10 +1,11 @@
 const content = document.getElementById('content')
+import logoImg from '../imgs/logo.png'
 
 function createHeader(){
     let header = document.createElement('div')
     header.classList.add('header')
     let logo = document.createElement('img')
-    logo.src = '../imgs/logo.png'
+    logo.src = logoImg
     logo.classList.add('logo')
     let links = document.createElement('div')
     links.classList.add('links')
