@@ -16,11 +16,6 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
-      {
-        test: /\.(pdf|gif|png|jpe?g|svg)$/,
-        use: 'file-loader?name=[path][name].[ext]',
-        include: paths
-      }
     ],
   },
   
