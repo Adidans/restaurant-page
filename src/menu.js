@@ -21,8 +21,8 @@ function createMenu(){
     let menuButton = document.createElement('a')
     menuButton.classList.add('menuButton')
     menuButton.textContent = 'APLŪKOT ĒDIENKARTI'
-    menuButton.addEventListener('click',() => {
-        window.open('../imgs/menu.pdf', '_blank');
+    menuButton.addEventListener('click', () => {
+        window.open('../dist/menu.pdf');
     })
     menuDiv.appendChild(menuButton)
 
